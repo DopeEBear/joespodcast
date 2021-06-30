@@ -45,7 +45,7 @@ body {
 }
 /* Mobile Navigation */
 .mobile-nav-links {
-  background: linear-gradient(to right,rgba(0,0,0,.90) 30%, #cd0000 70%);
+  background: radial-gradient(#cd0000 60%, #4c0000);
   width: 100%;
   height: 100vh;
   z-index: 2;

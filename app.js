@@ -34,14 +34,14 @@ tl.fromTo('.logo', {
 }, '>+0.5');
 
 // Toggle mobile navigation //
-const openNavMenu = document.querySelector('.fa-bars');
-const closeNavMenu = document.querySelector('.fa-times-circle');
+const openNavMenu = document.querySelector('.open-nav');
+const closeNavMenu = document.querySelector('.close-nav');
 
 
-openNavMenu.addEventListener('touchstart', function() {
+openNavMenu.addEventListener('click', () => {
   document.querySelector('.mobile-nav-links').style.visibility = "visible";
 });
 
-closeNavMenu.addEventListener('touchstart', function() {
+closeNavMenu.addEventListener('click', () => {
   document.querySelector('.mobile-nav-links').style.visibility = "hidden";
 });
